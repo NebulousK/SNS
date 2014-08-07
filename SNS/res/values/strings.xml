@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SNS</string>
+    <string name="action_search">친구찾기</string>
+    <string name="action_menu">메뉴</string>
+    <string name="action_settings">설정</string>
+    <string name="action_settings2">설정</string>
+    <string name="action_logout">로그아웃</string>
+    <string name="action_info">정보</string>
+	<string name="earray">i</string>
+	<string name="action_test">title</string>
+	<string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+	
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Setting</item>
+        <item >공지사항</item>
+        <item >알림설정</item>
+        <item >개인정보</item>
+        <item >고객센터</item>   
+    </string-array>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/engineering</item>
+        <item>@drawable/very_popular_topic</item>
+        <item>@drawable/appointment_reminders</item>
+        <item>@drawable/my_topic</item>
+        <item>@drawable/online_support</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+     
+    
+    
+ 
+</resources>

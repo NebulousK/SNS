@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loginView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" 
+    android:focusable="true"
+	android:focusableInTouchMode="true"
+    >
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="로그인" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="Onlogin"
+        />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_below="@+id/logo_image"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/logo_image"
+        android:gravity="center_horizontal"
+        android:text="SomeNsomE 가입" />
+
+    <TextView
+        android:id="@+id/id_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/join"
+        android:layout_alignBottom="@+id/join"
+        android:layout_alignRight="@+id/logo_image"
+        android:layout_marginRight="22dp"
+        android:gravity="center_horizontal"
+        android:text="아이디 찾기" 
+       />
+
+    <TextView
+        android:id="@+id/pass_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_search"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:text="비밀번호 찾기" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button" />
+
+</RelativeLayout>

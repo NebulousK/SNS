@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >    
+	<string-array name="actions">     
+	    <item>로그아웃</item>    
+	     <item>설정</item>     
+	    <item>정보</item>   
+	</string-array>
+	<string-array name="Earray">
+	  <item>chol.com</item>
+       <item>dreamwiz.com</item>
+       <item>empal.com</item>
+       <item>hanmir.com</item>
+       <item>hanafos.com</item>
+       <item>hotmail.com</item>
+       <item>lycos.co.kr</item>
+       <item>nate.com</item>
+       <item>naver.com</item>
+       <item>daum.net</item>
+       <item>hanmail.net</item>
+       <item>gmail.com</item>
+       <item>paran.com</item>
+       <item>yahoo.co.kr</item>
+       <item>직접입력</item>
+	</string-array>	
+	
+	
+</resources>

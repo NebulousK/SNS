@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	   
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="아이디"
+	        />
+
+	     <EditText
+	         android:id="@+id/add_id"
+	         android:layout_width="172dp"
+	         android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	   
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="가입시 등록 이메일"
+	        />
+	    <EditText 
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/add_email"/>
+	
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	   
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="새로운 비밀번호 입력"
+	        />
+	     <EditText 
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/add_pw"
+	        android:password="true"/>
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	   
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="비밀번호 확인"
+	        />
+	     <EditText 
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/add_pw2"
+	        android:password="true"/>
+	    
+	</LinearLayout>
+	 <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tv"
+	        />
+	  <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	   <Button 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="비밀번호 변경"
+	    android:onClick="OnChange"
+	    />
+
+	<Button
+	    android:layout_width="106dp"
+	    android:layout_height="wrap_content"
+	    android:onClick="OnCancle"
+	    android:text="취소" />
+
+	</LinearLayout>
+	
+</LinearLayout>
